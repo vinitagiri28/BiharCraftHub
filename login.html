@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login | BiharCraftHub</title>
+
+<link rel="stylesheet" href="bihar.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-box">
+<img src="logo.png.jpeg">
+<h2>BiharCraftHub</h2>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="heritage.html">Heritage</a>
+<a href="contact.html">Contact</a>
+<a href="cart.html">Cart 🛒</a>
+<a href="login.html" class="active">Login</a>
+<a href="login.html" class="signup">Sign Up</a>
+
+</nav>
+
+</header>
+
+
+<section class="auth">
+
+<div class="auth-container">
+
+<!-- LOGIN -->
+
+<div class="auth-box">
+
+<h2>Login</h2>
+
+<input type="email" placeholder="Email">
+
+<input type="password" placeholder="Password">
+
+<button class="btn">Login</button>
+
+<p class="switch">
+Don't have an account? 
+<a href="#" onclick="showSignup()">Sign Up</a>
+</p>
+
+</div>
+
+
+<!-- SIGNUP -->
+
+<div class="auth-box signup-box" id="signupBox">
+
+<h2>Sign Up</h2>
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email">
+
+<input type="password" placeholder="Password">
+
+<button class="btn">Create Account</button>
+
+<p class="switch">
+Already have an account? 
+<a href="#" onclick="showLogin()">Login</a>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-box">
+<h3>BiharCraftHub</h3>
+<p>Celebrating Bihar handicrafts and supporting local artisans.</p>
+</div>
+
+<div class="footer-box">
+<h3>Quick Links</h3>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="heritage.html">Heritage</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div class="footer-box">
+<h3>Contact</h3>
+<p>Email: support@biharcrafthub.com</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 BiharCraftHub | All Rights Reserved</p>
+</div>
+
+</footer>
+
+
+<script>
+
+function showSignup(){
+document.querySelector(".auth-box").style.display="none";
+document.querySelector("#signupBox").style.display="block";
+}
+
+function showLogin(){
+document.querySelector(".auth-box").style.display="block";
+document.querySelector("#signupBox").style.display="none";
+}
+
+</script>
+
+</body>
+
+</html>
