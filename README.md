@@ -80,6 +80,6 @@ This project was created as a front-end web development practice project to lear
 
 ## Author
 
-Created by **[Your Name]**
+Created by Vinita Giri 
 
 A beginner front-end project focused on learning web development while promoting Bihar’s traditional crafts and heritage.
