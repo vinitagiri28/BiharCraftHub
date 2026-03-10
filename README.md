@@ -54,14 +54,8 @@ project-folder
 ├── bihar.css
 │
 └── images
-    ├── logo.png
-    ├── madhubani.jpg
-    ├── sikki.jpg
-    ├── bangles.jpg
-    ├── terracotta.jpg
-    └── tikuli.jpg
+   
 
----
 
 ## Purpose of the Project
 
